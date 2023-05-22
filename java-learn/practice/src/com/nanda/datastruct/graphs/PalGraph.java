@@ -52,4 +52,8 @@ public class PalGraph {
             throw new GraphException("Node not found exception");
         }
     }
+
+    public Map<String, ArrayList<String>> getAdjacencyList() {
+        return this.adjacencyList;
+    }
 }
