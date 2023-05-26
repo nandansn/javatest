@@ -1,6 +1,7 @@
 package com.nanda.problem.solving.array;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -19,7 +20,6 @@ public class RunLenEncodeList {
                 list.add(val);
             }
         }
-
 
         return list.stream().mapToInt(i -> i).toArray();
     }
