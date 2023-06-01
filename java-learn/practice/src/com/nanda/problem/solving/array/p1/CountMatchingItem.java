@@ -55,9 +55,9 @@ public class CountMatchingItem {
 
     public static void main(String[] args) {
         List<List<String>> items = new ArrayList<>();
-        items.add(new ArrayList<>(List.of(new String[]{"phone", "blue", "pixel"})));
-        items.add(new ArrayList<>(List.of(new String[]{"computer","silver","lenovo"})));
-        items.add(new ArrayList<>(List.of(new String[]{"phone","gold","iphone"})));
+//        items.add(new ArrayList<>(List.of(new String[]{"phone", "blue", "pixel"})));
+//        items.add(new ArrayList<>(List.of(new String[]{"computer","silver","lenovo"})));
+//        items.add(new ArrayList<>(List.of(new String[]{"phone","gold","iphone"})));
         new CountMatchingItem().countMatches(items, "color", "silver");
     }
 
